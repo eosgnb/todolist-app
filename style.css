@@ -1,0 +1,159 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-color: #FEFAE0;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1000px;
+    }
+}
+
+/* span{
+    animation: blinker 1s linear infinite;
+} */
+  
+@keyframes blinker{
+    50% {
+      opacity: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 20px;
+    border: 5px solid black;
+    overflow: hidden;
+}
+
+.todo-card {
+    padding: 30px 50px;
+}
+
+.landing-card {
+    padding: 50px;
+}
+
+.card-header h1 {
+    font-size: 30px;
+    padding-left: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+.card-header {
+    background-color: #CCD5AE;
+    border-bottom: 5px solid black;
+}
+
+#todoHeader {
+    background-color: #ffafcc;
+}
+
+.heading {
+    font-size: 100px;
+    font-weight: bold;
+    color: #000;
+}
+
+.subheading {
+    font-family: 'Montserrat', monospace;
+    font-size: 60px;
+    color: #000;
+    margin-top: -1rem;
+}
+
+.form-control::placeholder {
+    color: #8d99ae;
+}
+
+#currentDate, #currentTime {
+    font-size: 25px;
+}
+
+.list-group{
+    max-height: 250px;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.list-group-item {
+    font-size: 20px;
+    display: block;
+    padding-left: 1.5em;
+    text-indent: -1.4em;
+}
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+    border: 3px solid #000 !important;
+    vertical-align: bottom;
+    position: relative;
+    top: -5px;
+}
+
+/* .checkbox:checked {
+    background-color: #F08080 !important;
+    border: 3px solid #000;
+} */
+
+/* .checkbox:focus {
+    box-shadow: none !important;
+} */
+
+#currentDate {
+    background-color: #bee1e6;
+}
+
+#currentTime {
+    background-color: #cddafd;
+}
+
+#nameField, #createBtn, #taskField, #addBtn {
+    font-weight: bold;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+#nameField {
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+#createBtn {
+    padding: 20px;
+    margin-left: 30px;
+    color: #000;
+    font-size: 30px;
+    background-color: #a2d2ff; 
+}
+
+#createBtn:hover, #addBtn:hover {
+    background-color: #fff
+}
+
+#taskField {
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+#addBtn {
+    padding: 15px 40px 15px 40px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #000;
+    background-color: #cdb4db;
+}
+
+
+
+
+
+
